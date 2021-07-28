@@ -111,3 +111,4 @@ describe("certificateOfAchievement", () => {
     expect(getByText("Recommendations")).toBeInTheDocument();
     expect(getByText("It doesn’t seem like there’s a recommendation for Steven yet. 🙁")).toBeInTheDocument();
   });
+  });

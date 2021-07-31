@@ -13,7 +13,7 @@ export const sampleCertificate: GeekOutCertificateTemplate = {
   $template: {
     name: "GEEK_OUT_2020",
     type: v2.TemplateType.EmbeddedRenderer,
-    url: "https://stoic-lumiere-531096.netlify.app"
+    url: "templates-2021.netlify.app"
   },
   issuers: [
     {

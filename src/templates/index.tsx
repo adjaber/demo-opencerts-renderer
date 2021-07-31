@@ -1,7 +1,7 @@
 import { templates as govtechDemoTemplates } from "./govtech-demo-cert";
-import { templates1 as testimonialsTemplates, templates2 as testimonialsTemplates2 } from "./testimonials";
-import { templates3 as certificateOfAwardTemplates } from "./certificate-of-award";
-import { templates4 } from "./certificateOfAchievement";
+import { templates as testimonialsTemplates, templates2 as testimonialsTemplates2 } from "./testimonials";
+import { templates as certificateOfAwardTemplates } from "./certificate-of-award";
+import { templates } from "./certificateOfAchievement";
 import { geekOut2020Template } from "./geekOut2020";
 
 import { TemplateRegistry } from "@govtechsg/decentralized-renderer-react-components";

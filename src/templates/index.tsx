@@ -4,7 +4,7 @@ import { templates as certificateOfAwardTemplates } from "./certificate-of-award
 import { templates } from "./certificateOfAchievement";
 import { geekOut2020Template } from "./geekOut2020";
 import { templates as drivingLicense } from "./driver-license-v3";
-
+import { InvoiceTemplates } from "./Invoice";
 import { TemplateRegistry } from "@govtechsg/decentralized-renderer-react-components";
 
 
@@ -16,5 +16,6 @@ export const registry: TemplateRegistry<any> = {
   TESTIMONIALS: testimonialsTemplates,
   TESTIMONIALS2: testimonialsTemplates2,
   CERTIFICATE_OF_AWARD: certificateOfAwardTemplates,
-  DRIVING_LICENSE: drivingLicense
+  DRIVING_LICENSE: drivingLicense,
+  INVOICE: InvoiceTemplates,
 };

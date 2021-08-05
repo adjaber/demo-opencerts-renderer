@@ -4,4 +4,7 @@ import { FramedDocumentRenderer , fullAttachmentRenderer } from "@govtechsg/dece
 import { registry } from "./templates";
 import "./index.css";
 
-ReactDOM.render(<FramedDocumentRenderer templateRegistry={registry} attachmentToComponent={fullAttachmentRenderer} />, document.getElementById("root"));
+ReactDOM.render(
+  <FramedDocumentRenderer templateRegistry={registry} attachmentToComponent={fullAttachmentRenderer} />, 
+                document.getElementById("root"))
+;
